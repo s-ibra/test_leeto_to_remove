@@ -1,0 +1,163 @@
+.root {
+    background-color: #E5E5E5;
+    border: solid #E5E5E5;
+   
+  }
+  
+      
+  .img {
+    margin-top:1vw;
+    margin-left: 1vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 62vw;
+    margin-bottom:2vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    
+  }
+  .titre_blocun{
+    margin-top:1vw;
+    margin-left: 7vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 56vw;
+    color: #262626;
+    font-size: 14px;
+  }
+  .premier_bloc{
+    margin-top:4vw;
+    margin-left: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #ffffff;
+    width: 65vw;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.03);
+    border-radius: 12px;
+  }
+  
+  .text_blocpremier{
+    margin-top:10vw;
+    margin-left: 7vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 57vw;
+    color: #8C8C8C;
+    line-height : 22px ;
+    font-size: 12px;
+  
+    
+  }
+  
+  
+  .blocun_agauche{
+    position: absolute;
+    align-items: flex-start;
+    display: flex;
+    font-size: 14px;
+    color: #262626;
+    width: 31vw;
+    background-color: #ffffff;
+    margin-top: -57vw;
+    margin-left: 68vw;
+    float: right;
+    font-size: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.03);
+    border-radius: 12px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  
+    
+  }
+  
+  
+  .blocdeux_agauche{
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    font-size: 14px;
+    color: #262626;
+    width: 31vw;
+    background-color: #ffffff;
+    margin-top: -43vw;
+    margin-left: 68vw;
+    float: right;
+    font-size: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.03);
+    border-radius: 12px;
+   
+  }
+  .text_blocdeuxieme{
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: #8C8C8C;
+    margin-left: 1vw;
+  }
+  .bouton_gratuit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vw;
+    margin-left: 1vw;
+    margin-bottom: 1vw;
+    width:29vw;
+    line-height:5vw;
+    text-align:center;
+    border: none;
+    background: #F8FDD9;
+    color: #567F0A;
+    border-radius: 8px;
+    
+    }
+    .bouton_modifier{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vw;
+    margin-left: 1vw;
+    margin-bottom: 2vw;
+    width:29vw;
+    line-height:3vw;
+    text-align:center;
+    background: #ffffff;
+    color: #F5222D;
+    border: solid #F5222D;
+    border-radius: 8px;
+    
+    }
+    .deuxieme_bloc{
+      width: 65vw;
+      margin-left: 2vw;;
+      background-color: #ffffff;
+      margin-top: 3vw;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.03);
+      border-radius: 12px;
+    }
+    .titre_deux{
+      margin-left: 2vw;
+      font-size: 16px;
+    }
+  
+  @media all and (max-width: 1024px)
+  {
+    .root {
+      background-color: #E5E5E5;
+      border: solid #E5E5E5;
+     
+    }
+    .blocun_agauche
+    {
+      flex-direction: column;
+       margin-top : 35vw;
+       margin-left: 10vw;
+    }
+  }
