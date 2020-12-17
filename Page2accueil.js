@@ -31,10 +31,10 @@ export default function pagedeux() {
        <div className="blocun_agauche">
           <Grid >
           <button className='bouton_gratuit'>
-             Gratuit
+              🎉 J’y vais ! (1 place réservée)
           </button>
-          <button className='bouton_reserver'>
-             Réserver
+          <button className='bouton_modifier'>
+             Modifier ma réservation
           </button>
           </Grid>
         </div>

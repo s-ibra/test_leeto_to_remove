@@ -3,7 +3,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import image from './image/image.png';
 import './App.css';
-import "./Page2accueil.js";
 export default function CenteredGrid() {
 
 
@@ -34,8 +33,6 @@ export default function CenteredGrid() {
           <button className='bouton_gratuit'>
              Gratuit
           </button>
-         
-          <input type="button" value="Accueil" OnClick="./Page2accueil.js" />
           <button className='bouton_reserver'>
              Réserver
           </button>
